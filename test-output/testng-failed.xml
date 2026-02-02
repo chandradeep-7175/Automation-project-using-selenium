@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="opencart(failed)">
+    <classes>
+      <class name="testCases.RecommendedItems">
+        <methods>
+          <include name="add_to_cart_recommended_items"/>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="checkTitle"/>
+          <include name="clickHome"/>
+        </methods>
+      </class> <!-- testCases.RecommendedItems -->
+    </classes>
+  </test> <!-- opencart(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
