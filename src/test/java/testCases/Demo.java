@@ -20,8 +20,6 @@ public class Demo extends BaseClass {
         sourseFile.renameTo(targetFile);
     }
 
-    TakesScreenshot ts = (TakesScreenshot) driver;
-    File sourse = ts.getScreenshotAs(OutputType.FILE);
-    File target = new File(System.getProperty("user.dir")+"\\screenshots\\ss.png");
+
 
 }
