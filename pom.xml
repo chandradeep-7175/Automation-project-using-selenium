@@ -60,6 +60,7 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+<!--    Regrassion-->
     <profiles>
         <profile>
             <id>Regression</id>
