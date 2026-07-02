@@ -5,7 +5,7 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.RegisterAccountAndDelete"/>
+            <class name="testCases.Demo"/>
         </classes>
     </test>
 </suite>
